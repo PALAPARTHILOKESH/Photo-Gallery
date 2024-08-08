@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <h1 style="text-align: center; color: rgb(148, 80, 20);"><b>Interactive Picture Album</b></h1>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="filters">
+      <button class="filter-btn" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="people">People</button>
+      <button class="filter-btn" data-filter="cars">Cars</button>
+      <button class="filter-btn" data-filter="bikes">Bikes</button>
+      <button class="filter-btn" data-filter="nature">Nature</button>
+      <button class="filter-btn" data-filter="animals">Animals</button>
+    </div>
+    <div class="gallery"></div>
+    <button id="load-more">Load More</button>
+  </div>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
